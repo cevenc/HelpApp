@@ -19,6 +19,9 @@
 
 
 // ...additional event handlers here...
+document.addEventListener("deviceready", onDeviceReady, false);
+function onDeviceReady() {
+}
 function popup(url){
     var $modal = $('#doc-modal-1');
     $modal.modal();
@@ -31,7 +34,7 @@ function popup(url){
     });
 }
 function getajax(){
-    console.log('ajaxing');
+//    console.log('ajaxing');
     $.ajax({
      type: 'get',
      url: 'http://120.26.47.233:8080/?callback=?',
@@ -50,4 +53,4 @@ function finding(){
     
         setInterval('getajax()',3000);
 }
-finding();
+window.onload=finding();

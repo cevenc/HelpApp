@@ -10,5 +10,5 @@
 <content src="index.html"/>
 <preference name="windows-publisher-display-name"/>
 <preference name="windows-publisher-id"/>
-<!--creationInfo:{"src":"appDesigner","projectTypeName":"com.intel.xdk.projecttype.webapp"}-->
+<!--creationInfo:{"src":"appDesigner","projectTypeName":"com.intel.xdk.projecttype.jsapp"}-->
 <preference name="debuggable" value="false"/></widget>
